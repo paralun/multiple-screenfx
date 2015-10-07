@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerForm2">
+   <children>
+      <VBox alignment="CENTER" layoutX="66.0" prefHeight="250.0" prefWidth="250.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Form 3" />
+            <Button fx:id="btnUtama" mnemonicParsing="false" onAction="#buttonUtama" text="Form Utama" />
+            <Button fx:id="btnForm2" mnemonicParsing="false" onAction="#buttonForm2" prefHeight="25.0" prefWidth="103.0" text="Form 2" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
